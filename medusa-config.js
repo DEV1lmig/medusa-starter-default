@@ -102,4 +102,8 @@ module.exports = {
   projectConfig,
   plugins,
   modules,
+  featureFlags: {
+    product_categories: true,
+    sales_channels: false,
+  },
 };
